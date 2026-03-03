@@ -1,0 +1,143 @@
+#header{
+    width: 100%;
+    height: 97px;
+    border-bottom: 2px solid #555;
+}
+
+#main{
+    width: 100%;
+}
+
+.container{
+    width: 1357px;
+    margin: 0 auto;
+    background-color: rgba(143, 255, 149, 0.3);
+}
+
+/* 헤더 */
+
+.head_inner{
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align item은 height값이 있어야 적용됨 */
+}
+#logo
+
+#nav{}
+#nav ul{
+    display: flex;
+}
+#nav ul li{}
+#nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    /* padding = nav ul list 목록들 사이에 간격 위아래10 , 양옆 20px넣기 */
+    font-weight: 700;
+    /* 폰트웨이 글자두께 */
+}
+#nav ul li a:hover{
+    color: aqua;
+}
+
+
+.menu_box{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.menu_box span.totalmenu{
+    /* background-image: url(../img/bar.jpg);
+    background-position: 0px 5px;
+    background-repeat: no-repeat; 
+    을 축약형으로 쓰기*/
+
+    background: url(../img/bar.jpg) no-repeat 0 5px;
+
+    padding-left: 18px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.menu_box .search_box{
+    display: flex;
+}
+.menu_box .search_box input{
+    width: 180px;
+    height: 42px;
+    padding-left: 15px;
+
+    /* display: block; */
+}
+.menu_box .search_box button{
+    /* display: block; */
+    /* 블락을 안넣고 플렉스를 넣으면 높이값이 서로 다른지 의문???? */
+    width: 42px;
+    height: 42px;
+    background: url(../img/icon.jpg) no-repeat center center;
+}
+
+
+
+/* main---------------- */
+
+.main_inner{
+    display: flex;
+}
+
+.left_content,.right_content{
+    width: 315px;
+    height: 687px;
+    background-color: #555;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center_content{
+    width: 727px;
+    height: 687px;
+}
+
+
+
+.left_box01,.left_box02,.right_box01,.right_box02{
+
+    width: 315px;
+    height: 314px;
+    background-color: red;
+}
+
+.left_box03,.right_box03 {
+    width: 158px;
+    height: 59px;
+    background-color: aquamarine;
+
+}
+
+.left_box04,.right_box04 {
+    width: 157px;
+    height: 59px;
+    background-color: rgb(13, 86, 61);
+
+}
+
+
+
+
+/* details */
+
+.sub_title{
+    font-size: 17px;
+    letter-spacing: -1px;
+    /* 자간 */
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box_title{
+    font-size: 14px;
+    letter-spacing: -1px;
+}

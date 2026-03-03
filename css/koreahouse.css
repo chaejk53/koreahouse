@@ -1,0 +1,129 @@
+/* reset */
+* {margin: 0;padding: 0;}
+a { text-decoration: none; color: #222;}
+li { list-style: none;}
+body {font-family: "Noto Sans KR", sans-serif;}
+
+/* header */
+
+#header {
+    width: 100%;
+    height: 97px;
+    background-color: beige;
+    margin: 0 auto;
+    border-bottom: 1px solid #222;
+        }
+
+
+.container {
+    width: 1357px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    
+            }
+
+
+#navgnb {
+    display: flex;
+    justify-content: space-between;
+    line-height: 97px;
+        }
+
+
+#nav{ 
+    display: flex;
+
+    }
+
+
+.lnb{ 
+    display: flex;
+    background-color: aqua;
+    }
+
+.lnb li a {padding:10px;}
+    
+
+.gnb{
+    display: inline;
+    display:flex;
+    background-color: aqua;
+    }
+
+    /* main */
+
+    #main>.container {display: flex; justify-content: space-between;}
+
+    #center_img {align-items: center;}
+
+    /* main첫번쨰박스 main01*/
+
+    .contents01 { 
+        display:block;
+        width: 315px; 
+        height: 314px; 
+        background-color: blue;}
+
+    .contents02 {
+        display:block;
+        width: 315px; 
+        height: 314px; 
+        background-color: rgb(139, 139, 255);}
+
+        .cont03_bot { 
+            margin-top: 40%;
+            background-color: #652727;
+        }
+        .cont03_bot img { margin-right: 50px;}
+            
+        
+    
+    .contents03 { display: flex;}
+
+        .contents03 .cont03_left{
+            display:block;
+            width: 158px; 
+            height: 59px; 
+            background-color: #652727;
+            }
+        .contents03 .cont03_right{
+            display:block;
+            width: 157px; 
+            height: 59px; 
+            background-color: #a26060;
+            }
+
+    /* main두번째박스 main02*/
+
+    .contents001 { 
+        display:block;
+        width: 315px; 
+        height: 314px; 
+        background-color: blue;}
+
+    .contents002 {
+        display:block;
+        width: 315px; 
+        height: 314px; 
+        background-color: rgb(139, 139, 255);}
+    
+    .contents003 { display: flex;}
+
+        .contents003 .cont003_left{
+            display:block;
+            width: 158px; 
+            height: 59px; 
+            background-color: #652727;
+            }
+        .contents003 .cont003_right{
+            display:block;
+            width: 157px; 
+            height: 59px; 
+            background-color: #a26060;
+            }
+
+            .cont03_top {position: relative;}
+
+            .img03{position: absolute;}
+
+            
